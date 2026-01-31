@@ -16,6 +16,14 @@ public class main{
         char operator = scan.next().charAt(0);
 
         switch(operator){
+            case '+':
+                result = addition(num1, num2);
+                break;
+            default:
+                System.out.println("Invalid operator")
         }
+    }
+    public static double addition(double num1, double num2){
+        return num1 + num2;
     }
 }
